@@ -3,7 +3,7 @@
 Godot RL Agents uses [Tensorboard](https://www.tensorflow.org/tensorboard) to log training statistics. You can start Tensorboard by running the following command:
 
 ```bash
-tensorboard --logdir ./logs/[RL_FRAMEWORK] -p 7000
+tensorboard --logdir ./logs/[RL_FRAMEWORK] --port 7000
 ```
 where `[RL_FRAMEWORK]` is one of `sb3`, `sf`, `cleanrl` or `rllib`, depending which RL framework you are using.
 
